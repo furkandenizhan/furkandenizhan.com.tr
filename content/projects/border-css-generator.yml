@@ -1,8 +1,8 @@
-title: 'CSS Border Generator'
-description: 'A simple web page created with React to get the preview of the border of a component and obtain the relative CSS style code.'
-image: 'https://i.imgur.com/1y4GCFW.png'
-core_techs: ['javascript', 'reactjs']
-tags: ['javascript', 'reactjs', 'css', 'fontawesome']
-repository: 'https://github.com/mateusfg7/Box-CSS-Preview'
-website: 'https://border-css-generator.mateusf.com/'
+title: 'Suku Earthquake'
+description: 'As Suku Tech, we are interested in all disasters not only in Turkey, but also around the world. This is the reason why Suku Earthquake was created. Suku Earthquake visualises the earthquake data provided by the USGS on a map and presents it to the user in a modern and understandable interface.'
+image: 'https://raw.githubusercontent.com/openeew/openeew/master/images/openeew-diagram.jpg'
+core_techs: ['javascript']
+tags: ['For the people', 'Disasters', 'Open Source']
+repository: 'https://github.com/sukutech/earthquake'
+website: 'https://earthquake.sukudir.com/'
 featured: true

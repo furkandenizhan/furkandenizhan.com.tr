@@ -39,7 +39,7 @@ async function getRepoData({ user, repo }: { user: string; repo: string }) {
   return res
 }
 export async function MakingCard() {
-  const repoData = await getRepoData({ user: 'mateusfg7', repo: 'mateusf.com' })
+  const repoData = await getRepoData({ user: 'furkandenizhan', repo: 'furkandenizhan.com.tr' })
   return (
     <div className="w-full space-y-4 rounded-xl border border-neutral-200 p-5 text-sm shadow-md dark:border-neutral-800">
       <header className="flex justify-between gap-3">
@@ -48,7 +48,7 @@ export async function MakingCard() {
           <span>We're cooking....</span>
         </div>
         <Link href="/projects" className="opacity-80 hover:opacity-100">
-          See products*
+          See projects*
         </Link>
       </header>
       <div className="space-y-3 rounded-xl border border-neutral-200 p-2 dark:border-neutral-800">

@@ -35,8 +35,8 @@ export function Footer() {
           </Link>
         </div>
         <div className="text-center text-sm text-neutral-400 dark:text-neutral-500 md:text-right">
-          Built 
-          by{' '}
+          With
+          contributions by {' '}
           <Link
             href="https://github.com/mateusfg7"
             rel="external"

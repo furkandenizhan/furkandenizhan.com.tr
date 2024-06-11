@@ -1,9 +1,9 @@
-title: 'QRCode Generator'
-description: 'QR Code generator with automated forms to generate Plain Text, Wifi or vCard. Project developed with the main objective of studying the Vue.js library. '
-image: 'https://raw.githubusercontent.com/mateusfg7/qrcode-generator/main/.github/thumbnail.png'
-core_techs: ['vue', 'typescript', 'vite','tailwindcss']
-tags: ['vue', 'typescript', 'vite', 'tailwindcss','qrcode', 'lucideicons', 'tailwindcss-form']
-repository: 'https://github.com/mateusfg7/qrcode-generator'
-website: 'https://qrcode.mateusf.com'
+title: 'Uzak El'
+description: 'Uzakel prevents pollution traffic with the null route method for businesses that manage their own BGP operations. It is still under development. '
+image: 'https://github.com/furkandenizhan/uzakel/raw/master/uzakel-draw.png'
+core_techs: []
+tags: ['NOC', 'SOC', 'Network Security', 'Open Source']
+repository: 'https://github.com/furkandenizhan/uzakel'
+website: 'https://uzakel.com'
 priority: 1
 featured: true

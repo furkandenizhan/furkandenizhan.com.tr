@@ -18,7 +18,7 @@ type Contact = {
 }
 const contacts: Contact[] = [
   {
-    user: 'contact@mateusf.com',
+    user: 'contact@furkandenizhan.com.tr',
     title: () => (
       <div className="contact-line contact-line-title text-brand-email">
         <span className="rounded bg-brand-email/10 p-1 text-2xl">
@@ -31,7 +31,7 @@ const contacts: Contact[] = [
       <div className="contact-line">
         <a
           className="inline-flex items-end gap-px hover:underline"
-          href="mailto:contact@mateusf.com"
+          href="mailto:contact@furkandenizhan.com.tr"
           target="_blank"
           rel="external"
         >
@@ -42,7 +42,7 @@ const contacts: Contact[] = [
     )
   },
   {
-    user: 'mateusfg7',
+    user: 'furkandenizhan',
     title: () => (
       <div className="contact-line contact-line-title text-brand-github">
         <span className="rounded bg-brand-github/10 p-1">
@@ -55,7 +55,7 @@ const contacts: Contact[] = [
       <div className="contact-line">
         <a
           className="inline-flex items-end gap-px hover:underline"
-          href="https://github.com/mateusfg7/?ref=https://mateusf.com"
+          href="https://github.com/furkandenizhan/"
           target="_blank"
           rel="external"
         >
@@ -66,7 +66,7 @@ const contacts: Contact[] = [
     )
   },
   {
-    user: 'mateusfg',
+    user: 'furkandenizhan',
     title: () => (
       <div className="contact-line contact-line-title text-brand-linkedin">
         <span className="rounded bg-brand-linkedin/10 p-1 ">
@@ -79,7 +79,7 @@ const contacts: Contact[] = [
       <div className="contact-line">
         <a
           className="inline-flex items-end gap-px hover:underline"
-          href="https://www.linkedin.com/in/mateusfg/?ref=https://mateusf.com"
+          href="https://www.linkedin.com/in/furkandenizhan/"
           target="_blank"
           rel="external"
         >
@@ -90,79 +90,7 @@ const contacts: Contact[] = [
     )
   },
   {
-    user: 'mateusfg7',
-    title: () => (
-      <div className="contact-line contact-line-title text-brand-stack-overflow">
-        <span className="rounded bg-brand-stack-overflow/10 p-1">
-          <StackOverflowLogo />
-        </span>
-        <span>Stack Overflow</span>
-      </div>
-    ),
-    link: () => (
-      <div className="contact-line">
-        <a
-          className="inline-flex items-end gap-px hover:underline"
-          href="https://stackoverflow.com/users/15445504/mateusfg7/?ref=https://mateusf.com"
-          target="_blank"
-          rel="external"
-        >
-          <span className="leading-none">Open summary</span>
-          <ArrowUpRight size="1em" className="text-sm" />
-        </a>
-      </div>
-    )
-  },
-  {
-    user: 'mateusfg7',
-    title: () => (
-      <div className="contact-line contact-line-title text-brand-codepen">
-        <span className="rounded bg-brand-codepen/10 p-1">
-          <CodepenLogo />
-        </span>
-        <span>Codepen</span>
-      </div>
-    ),
-    link: () => (
-      <div className="contact-line">
-        <a
-          className="inline-flex items-end gap-px hover:underline"
-          href="https://codepen.io/mateusfg7/?ref=https://mateusf.com"
-          target="_blank"
-          rel="external"
-        >
-          <span className="leading-none">View pens</span>
-          <ArrowUpRight size="1em" className="text-sm" />
-        </a>
-      </div>
-    )
-  },
-  {
-    user: 'u/mateusfg7',
-    title: () => (
-      <div className="contact-line contact-line-title text-brand-reddit">
-        <span className="rounded bg-brand-reddit/10 p-1">
-          <RedditLogo />
-        </span>
-        <span>Reddit</span>
-      </div>
-    ),
-    link: () => (
-      <div className="contact-line">
-        <a
-          className="inline-flex items-end gap-px hover:underline"
-          href="https://www.reddit.com/user/mateusfg7/?ref=https://mateusf.com"
-          target="_blank"
-          rel="external"
-        >
-          <span className="leading-none">See comments</span>
-          <ArrowUpRight size="1em" className="text-sm" />
-        </a>
-      </div>
-    )
-  },
-  {
-    user: '@mateusfg77',
+    user: 'furkandenizhan_',
     title: () => (
       <div className="contact-line contact-line-title text-brand-twitter">
         <span className="rounded bg-brand-twitter/10 p-1">
@@ -175,7 +103,7 @@ const contacts: Contact[] = [
       <div className="contact-line">
         <a
           className="inline-flex items-end gap-px hover:underline"
-          href="https://twitter.com/mateusfg77/?ref=https://mateusf.com"
+          href="https://twitter.com/furkandenizhan"
           target="_blank"
           rel="external"
         >
@@ -185,54 +113,7 @@ const contacts: Contact[] = [
       </div>
     )
   },
-  {
-    user: '@mateusfg7',
-    title: () => (
-      <div className="contact-line contact-line-title text-brand-instagram">
-        <span className="rounded bg-brand-instagram/10 p-1">
-          <InstagramLogo />
-        </span>
-        <span>Instagram</span>
-      </div>
-    ),
-    link: () => (
-      <div className="contact-line">
-        <a
-          className="inline-flex items-end gap-px hover:underline"
-          href="https://www.instagram.com/mateusfg7/?ref=https://mateusf.com"
-          target="_blank"
-          rel="external"
-        >
-          <span className="leading-none">Open profile</span>
-          <ArrowUpRight size="1em" className="text-sm" />
-        </a>
-      </div>
-    )
-  },
-  {
-    user: 'mateus',
-    title: () => (
-      <div className="contact-line contact-line-title text-brand-arch">
-        <span className="rounded bg-brand-arch/10 p-1">
-          <ArchLinuxLogo />
-        </span>
-        <span>Arch (AUR)</span>
-      </div>
-    ),
-    link: () => (
-      <div className="contact-line">
-        <a
-          className="inline-flex items-end gap-px hover:underline"
-          href="https://aur.archlinux.org/account/mateus/?ref=https://mateusf.com"
-          target="_blank"
-          rel="external"
-        >
-          <span className="leading-none">Open profile</span>
-          <ArrowUpRight size="1em" className="text-sm" />
-        </a>
-      </div>
-    )
-  }
+
 ]
 
 export function Contact() {

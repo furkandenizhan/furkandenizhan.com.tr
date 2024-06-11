@@ -1,19 +1,14 @@
-title: 'Text Tools'
-description: 'A collection of text transform tools, like change string case, get text statistics, generate hashes, and more!'
-image: 'https://raw.githubusercontent.com/mateusfg7/text-tools/main/.github/assets/thumbnail.png'
-core_techs: ['typescript', 'reactjs', 'nextjs', 'tailwindcss', 'bun']
+title: 'Suku Deprem'
+description: 'This project, a fork of zelzele.io, simplifies the monitoring and comparison of earthquakes in Turkey for the general public.'
+image: 'https://github.com/ahmetilhn/zelzele.io/blob/master/assets/img/promotion/earthquake-item.png?raw=true'
+core_techs: ['typescript', 'vue']
 tags:
   [
-    'typescript',
-    'reactjs',
-    'nextjs',
-    'tailwindcss',
-    'bun',
-    'shadcn/ui',
-    'lucide-icons',
-    'tests'
+    'For the people',
+    'Disasters',
+    'Open Source'
   ]
-repository: 'https://github.com/mateusfg7/text-tools'
-website: 'https://text.mateusf.com'
+repository: 'https://github.com/sukutech/deprem'
+website: 'https://deprem.sukudir.com'
 priority: 1
 featured: true

@@ -1,14 +1,11 @@
-title: 'LMJ Automotive'
-description: 'Website da LMJ Automotive, uma oficina mecânica que oferece serviço móvel. Empresa fictícia para o Projeto Final do curso de Aprendizado Industrial em Logística, na instituição SESI SENAI Dr. Celso Charuri - Pará de Minas MG.'
-image: 'https://raw.githubusercontent.com/mateusfg7/lmj-automotive/main/.github/thumbnail.png'
+title: 'Yazbee.co'
+description: 'At Suku Tech, we place great importance on open source software, freedom and privacy. In line with our mission, we are developing a privacy-oriented, free social media platform. In fact, we are not. We are resurrecting it! Yazbee.co is an Okuna fork maintained by Suku Tech. '
+image: 'https://i.ytimg.com/vi/b9J3E5pGUlE/maxresdefault.jpg'
 core_techs: ['typescript', 'reactjs', 'nextjs', 'tailwindcss']
 tags: [
-      'typescript',
-      'reactjs',
-      'nextjs',
-      'tailwindcss',
-      'react-icons',
-      'tailwind-styled-components'
+      'For the freedom',
+      'Open Source',
+      'No Tracking'
     ]
-repository: 'https://github.com/mateusfg7/lmj-automotive'
-website: 'https://www.lmjautomotive.com.br/'
+repository: 'https://github.com/yazbee/'
+website: 'https://yazbee.co/'

@@ -5,6 +5,11 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: [
+      'www.ilkbyte.com',
+      'i.ytimg.com',
+      'www.wisecp.com',
+      'ph-files.imgix.net',
+      'blog.sukudir.com',
       'raw.githubusercontent.com',
       'avatars.githubusercontent.com',
       'github.com',
