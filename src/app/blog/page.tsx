@@ -48,7 +48,6 @@ export default function Page() {
       <div className="flex flex-wrap justify-center gap-4 py-4 md:justify-start">
         <TopLink Icon={FolderOpen} href="/blog/categories" title="Categories" />
         <TopLink Icon={Tag} href="/blog/tag" title="Tags" />
-        <TopLink Icon={Notebook} href="/blog/til" title="T.I.L" />
       </div>
       <PostList posts={sortedPosts} separateByYear />
     </div>

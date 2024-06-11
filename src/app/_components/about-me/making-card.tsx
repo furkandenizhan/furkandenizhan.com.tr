@@ -45,10 +45,10 @@ export async function MakingCard() {
       <header className="flex justify-between gap-3">
         <div className="flex items-center gap-1">
           <Coffee />
-          <span>Currently making...</span>
+          <span>We're cooking....</span>
         </div>
         <Link href="/projects" className="opacity-80 hover:opacity-100">
-          see projects
+          See products*
         </Link>
       </header>
       <div className="space-y-3 rounded-xl border border-neutral-200 p-2 dark:border-neutral-800">
@@ -98,17 +98,9 @@ export async function MakingCard() {
         <a
           className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-neutral-700/10 p-3 leading-none text-neutral-700 transition hover:bg-neutral-700 hover:text-white dark:bg-neutral-400/10 dark:text-neutral-400 dark:hover:bg-neutral-400 dark:hover:text-black"
           target="_blank"
-          href="/assets/cv-mateus-felipe.pdf"
+          href="https://furkandenizhan.com.tr/cv.pdf"
         >
           Download CV <DownloadSimple size="1em" />
-        </a>
-        <a
-          className="flex items-end justify-center rounded-xl p-3 leading-none underline opacity-70 hover:opacity-100"
-          target="_blank"
-          href="https://read.cv/mateusfelipe/?ref=https://mateusf.com"
-        >
-          <span>read.cv</span>
-          <ArrowUpRight className="text-xs" size="1em" />
         </a>
       </div>
     </div>

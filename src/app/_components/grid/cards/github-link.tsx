@@ -9,7 +9,7 @@ export const GithubLink = () => {
   return (
     <a
       className="group relative flex h-full w-full transform-gpu flex-col justify-between gap-5 overflow-hidden rounded-xl text-white transition-all duration-500 will-change-[outline,_transform] group-hover:scale-[.97] hover:scale-[.97] active:scale-100"
-      href="http://github.com/mateusfg7"
+      href="http://github.com/furkandenizhan"
       target="_blank"
     >
       <span
@@ -33,7 +33,7 @@ export const GithubLink = () => {
       </span>
       <span className="space-y-0.5 px-6 pb-6">
         <span className="block font-semibold">GitHub</span>
-        <span className="block text-sm">My experiments (aka projects)</span>
+        <span className="block text-sm">Projects from Furkan (I can't stop this head.)</span>
       </span>
     </a>
   )

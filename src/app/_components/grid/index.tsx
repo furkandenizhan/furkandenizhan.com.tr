@@ -3,7 +3,6 @@ import { DiscordStatus } from './cards/discord-status'
 import { GithubLink } from './cards/github-link'
 import { GithubStats } from './cards/github-stats'
 import { LatestPost } from './cards/latest-post'
-import { LetterboxedLink } from './cards/letterboxed-link'
 import { LinksCard } from './cards/links'
 import { MostListenedMusic } from './cards/most-listened-music'
 import { StacksCard } from './cards/stacks-card'
@@ -37,8 +36,7 @@ export function Grid() {
         <div className="col-span-3 flex flex-col gap-3">
           <div className="flex gap-3">
             <div className="w-24">
-              <LetterboxedLink />
-            </div>
+              </div>
             <div className="flex w-full flex-col gap-3">
               <LinksCard />
             </div>

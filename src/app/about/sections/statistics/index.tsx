@@ -2,8 +2,6 @@ import { Suspense } from 'react'
 import Link from 'next/link'
 import { ErrorBoundary } from 'react-error-boundary'
 import { ArrowUpRight } from '@phosphor-icons/react/dist/ssr'
-
-import { AgeCard } from './cards/age'
 import { GithubFollowers } from './cards/github-followers'
 import { GithubStars } from './cards/github-stars'
 import { BlogPosts } from './cards/posts'
@@ -18,7 +16,6 @@ export function StatisticsGrid() {
       <Suspense fallback={<GridSkeleton />}>
         <div className="space-y-4">
           <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
-            <AgeCard />
             <GithubStars />
             <GithubFollowers />
             <BlogPosts />

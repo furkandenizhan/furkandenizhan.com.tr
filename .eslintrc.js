@@ -5,9 +5,10 @@ module.exports = {
     'space-before-function-paren': 'off',
     'react/prop-types': 'off',
     'no-use-before-define': 'off',
+    "react/no-unescaped-entities": "off",
     'prefer-const': 'off',
     'react/react-in-jsx-scope': 'off',
     'react-hooks/exhaustive-deps': 'off',
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'off'
   }
 }

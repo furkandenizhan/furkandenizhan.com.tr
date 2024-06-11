@@ -14,7 +14,7 @@ export const LinksCard = () => {
         className="flex h-[4.125rem] w-full transform-gpu flex-col items-center justify-center rounded-lg bg-[#2867b2] text-white duration-500 hover:scale-[.97]"
       >
         <LinkedinLogo size="1em" className="text-2xl" />
-        <p className="-rotate-3 text-[12px] text-white/90">(serious stuff)</p>
+        <p className="-rotate-3 text-[12px] text-white/90">(Serious stuff)</p>
       </a>
       <a
         href="https://x.com/mateusfg77"
@@ -22,7 +22,7 @@ export const LinksCard = () => {
         className="flex h-[4.125rem] w-full transform-gpu flex-col items-center justify-center rounded-lg bg-[#1c1d1f] text-white duration-500 hover:scale-95"
       >
         <XLogo size="1em" className="text-2xl" />
-        <p className="text-[12px] text-white/55 ">(share memes ;)</p>
+        <p className="text-[12px] text-white/55 ">(Often serious)</p>
       </a>
       <a
         href="https://www.reddit.com/user/mateusfg7/"
@@ -40,7 +40,7 @@ export const LinksCard = () => {
         className="flex h-[4.125rem] w-full transform-gpu flex-col items-center justify-center rounded-lg bg-brand-codepen text-white duration-500 hover:scale-95 dark:text-black"
       >
         <CodepenLogo size="1em" className="text-2xl" />
-        <p className="text-[12px]">(web drafts)</p>
+        <p className="text-[12px]">(Drafts)</p>
       </a>
     </div>
   )

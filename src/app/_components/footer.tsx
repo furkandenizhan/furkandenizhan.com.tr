@@ -18,13 +18,6 @@ export function Footer() {
     <div className="border-t border-neutral-300/30 bg-neutral-50 py-11 dark:border-neutral-900 dark:bg-neutral-1000">
       <div className="content-container m-auto flex items-center leading-none md:justify-between">
         <div className="hidden gap-4 text-neutral-500 dark:text-neutral-400 md:flex">
-          <Link
-            href="https://github.com/mateusfg7/mateusf.com/blob/main/LICENSE/?ref=https://mateusf.com"
-            rel="license"
-          >
-            <span>License</span>
-            <ArrowIcon />
-          </Link>
           <Link href="/sitemap" rel="noreferrer">
             <span>Sitemap</span>
             <ArrowIcon />
@@ -34,45 +27,18 @@ export function Footer() {
             <ArrowIcon />
           </Link>
           <Link
-            href="https://github.com/mateusfg7/mateusf.com/?ref=https://mateusf.com"
+            href="https://github.com/furkandenizhan/furkandenizhan.com.tr/"
             rel="external"
           >
-            <span>Github</span>
+            <span>Source</span>
             <ArrowIcon />
           </Link>
         </div>
         <div className="text-center text-sm text-neutral-400 dark:text-neutral-500 md:text-right">
-          Built with{' '}
-          <Link
-            href="https://nextjs.org/?ref=https://mateusf.com"
-            rel="external"
-          >
-            Next.js
-          </Link>
-          ,{' '}
-          <Link
-            href="https://mdxjs.com/?ref=https://mateusf.com"
-            rel="external"
-          >
-            MDX
-          </Link>
-          ,{' '}
-          <Link
-            href="https://tailwindcss.com/?ref=https://mateusf.com"
-            rel="external"
-          >
-            Tailwindcss
-          </Link>{' '}
-          and{' '}
-          <Link
-            href="https://velite.js.org/?ref=https://mateusf.com"
-            rel="external"
-          >
-            Velite
-          </Link>{' '}
+          Built 
           by{' '}
           <Link
-            href="https://github.com/mateusfg7/?ref=https://mateusf.com"
+            href="https://github.com/mateusfg7"
             rel="external"
           >
             Mateus Felipe

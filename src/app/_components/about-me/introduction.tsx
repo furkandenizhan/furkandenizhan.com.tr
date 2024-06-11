@@ -80,43 +80,25 @@ const Link = ({ label, ...props }: { label: string } & LinkProps) => (
 
 export function Introduction() {
   return (
-    <div className="flex-1 space-y-4">
-      <h2 className="text-xs opacity-70">Full-Stack Developer</h2>
+    <div className="flex-1 space-y-4 text-balance">
+      <h2 className="text-xs opacity-70">Furkan Denizhan</h2>
 
-      <p>
+      <p className="align-baseline">
         <HandIcon />
-        <span>Hello, welcome to my little corner on the web!</span>
+        Hello, and welcome to my personal web page. Or, to be honest, welcome to my corner of the digital landfill!
       </p>
 
       <p>
-        I&apos;m a self-taught code solutions programmer, I love programming and
-        I try to use the most <strong>software architecture</strong>,{' '}
-        <strong>clean</strong> and <strong>maintainable code</strong>. I like to
-        work with technologies from the <Javascript />, <Typescript />,{' '}
-        <Python /> and <Rust /> ecosystem.
+        Firstly, I've always been more than a DevOps/SysOps or network engineer. I'm an ideation engineer. As humans, we think about tens of thousands of things every day, we come up with hundreds of new ideas every day. We humans are really supercomputers. At least as long as AI doesn't destroy us :) So how many of these tens of thousands of thoughts do we take into account? Or, to be more precise, how many of those thousands of thoughts that come into our heads do we act on? Almost none. We do not even dwell on our ideas that we think are creative and wonderful. What if we told you that we have the opportunity to work on these ideas and create miracles? Well, that's me. I chase great ideas and I run towards dreams that are considered 'impossible'.
       </p>
 
       <p>
-        I&apos;m always learning and here you can find out about the projects
-        I&apos;ve completed and am working on, as well as details about my
-        career and skills. I&apos;m always looking to improve, and you can
-        follow my progress and what I&apos;m currently studying.
+        Learning is a continuous process that we, as human beings, continue as long as we live. Even when I think I have solved a task and done it in the best way, I always realise that there is always more to learn. As long as we are alive, there is always more to learn. As long as we survive and want to learn.
       </p>
 
       <p>
         See more <Link label="about me" href="/about" /> or take a look into{' '}
-        <Link label="my projects" href="/projects" /> {';)'}
-      </p>
-
-      <p>
-        Maybe you can learn something on my{' '}
-        <Link label="blog posts" href="/blog" /> or with my{' '}
-        <Link label='"Today I Learn"' href="/blog/til" /> notes!
-      </p>
-
-      <p>
-        I hope I can help you. I&apos;d love to hear your ideas and contribute
-        whenever possible.
+        <Link label="blog" href="/blog" /> {';)'}
       </p>
     </div>
   )

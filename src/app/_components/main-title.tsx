@@ -1,5 +1,4 @@
 import Image from 'next/image'
-
 import { Typewriter } from './typewriter'
 
 import deconstructedRobotBroLight from './deconstructed-robot-bro-light.svg'
@@ -8,7 +7,7 @@ import deconstructedRobotBroDark from './deconstructed-robot-bro-dark.svg'
 export function MainTitle() {
   return (
     <div className="relative flex h-fit w-full flex-col items-center justify-between">
-      <div className="absolute -z-50 h-64 w-64 bg-[conic-gradient(transparent,rgb(0,0,0))] opacity-15 blur-2xl dark:bg-[conic-gradient(transparent,rgb(255,255,255))] md:left-36" />
+      <div className="absolute left-36 -z-50 h-64 w-64 bg-[conic-gradient(transparent,rgb(0,0,0))] opacity-15 blur-2xl dark:bg-[conic-gradient(transparent,rgb(255,255,255))]" />
 
       <div className="absolute left-1/2 top-1/2 w-max -translate-x-1/2 -translate-y-1/2 opacity-10 dark:opacity-5 md:hidden">
         <Image
@@ -22,19 +21,21 @@ export function MainTitle() {
           className="hidden w-96 dark:block"
         />
       </div>
-
-      <div className="flex w-full items-center gap-12 md:justify-between">
-        <div className="flex w-full flex-col items-center gap-4 md:w-fit md:items-start">
+      <div className="flex w-full items-center justify-center gap-12 md:justify-between">
+        <div className="flex flex-col gap-4">
           <span className="w-min text-7xl font-bold text-black drop-shadow-2xl dark:text-neutral-50 md:w-max">
-            Mateus Felipe,
+            I'm Furkan Denizhan,
           </span>
-          <span className="flex w-full items-center justify-center text-center text-2xl text-neutral-400 md:min-h-fit md:justify-start md:text-left md:text-3xl">
+          <span className="flex items-center text-2xl text-neutral-400 md:text-3xl ">
             <Typewriter
               words={[
-                'Tech stuff enthusiast',
-                'Nature admirer',
-                'Enjoyer of good books',
-                'Full stack developer'
+                'Iconoclastic Entrepreneur',
+                'Founder of Suku Tech',
+                'Senior SysOps/DevOps Engineer',
+                'Junior Network Engineer',
+                'Philosophy/Psychology Enthusiast',
+                'Literary Aficionado',
+                'Poet of Code'
               ]}
               cursor
               loop

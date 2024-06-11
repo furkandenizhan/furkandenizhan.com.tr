@@ -27,12 +27,12 @@ const MenuItem: React.FC<{ name: string; path: string }> = ({ name, path }) => {
 export function Header() {
   return (
     <header className="fixed top-0 z-40 w-full p-3">
-      <div className="content-container m-auto flex items-center justify-between rounded-xl border border-neutral-200/50 bg-neutral-50/80 p-0 backdrop-blur-3xl transition-all dark:border-neutral-900 dark:bg-neutral-1000/80 md:px-5">
+      <div className="content-container m-auto flex items-center justify-between rounded-xl border border-neutral-200/50 bg-neutral-50/80 p-3 backdrop-blur-3xl transition-all dark:border-neutral-900 dark:bg-neutral-1000/80 md:px-5">
         <Link
           href="/"
-          className="px-4 py-3 font-handwrite text-2xl font-bold drop-shadow-lg"
+          className="font-handwrite text-2xl font-bold drop-shadow-lg"
         >
-          Mateus F.
+          Furkan D.
         </Link>
         <div className="hidden w-full items-center gap-8 md:flex md:w-auto">
           <nav className="flex-wrap items-center justify-center gap-5">
@@ -40,7 +40,6 @@ export function Header() {
             <MenuItem name="Blog" path="/blog" />
             <MenuItem name="Projects" path="/projects" />
             <MenuItem name="About" path="/about" />
-            <MenuItem name="Guestbook" path="/guestbook" />
           </nav>
           <Search />
           <ToggleTheme />

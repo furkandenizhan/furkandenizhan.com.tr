@@ -89,13 +89,13 @@ export function MobileMenu() {
   return (
     <Dialog.Root open={isDialogOpen} onOpenChange={setIsDialogOpen}>
       <Dialog.Trigger asChild className="md:hidden">
-        <button className="px-4 py-3" aria-label="Open menu">
+        <button aria-label="Open menu">
           <List size="1em" />
         </button>
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 z-50 bg-black/40 backdrop-blur-md data-[state=open]:animate-overlayShow" />
-        <Dialog.Content className="fixed right-0 top-0 z-50 h-dvh w-3/4 data-[state=closed]:animate-slide-right data-[state=open]:animate-slide-left">
+        <Dialog.Content className="fixed bottom-0 right-0 top-0 z-50 w-3/4 data-[state=closed]:animate-slide-right data-[state=open]:animate-slide-left">
           <div className="relative flex h-screen w-full">
             <Dialog.Close
               asChild
@@ -110,7 +110,6 @@ export function MobileMenu() {
               <Link title="Blog" icon={Note} href="/blog" />
               <Link title="Projects" icon={Briefcase} href="/projects" />
               <Link title="About" icon={User} href="/about" />
-              <Link title="Guestbook" icon={Book} href="/guestbook" />
               <Link title="Sitemap" icon={TreeStructure} href="/sitemap" />
               <Search />
               <OutLink

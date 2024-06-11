@@ -60,14 +60,6 @@ export function CustomKBarProvider({ children }: { children: ReactNode }) {
       perform: () => push('/about')
     },
     {
-      id: 'guestbook',
-      name: 'Guestbook',
-      shortcut: ['n', 'g'],
-      keywords: 'presence list',
-      icon: <Book size="1em" weight="duotone" />,
-      perform: () => push('/guestbook')
-    },
-    {
       id: 'statistics',
       name: 'Statistics',
       shortcut: ['n', 's'],
@@ -175,15 +167,6 @@ export function CustomKBarProvider({ children }: { children: ReactNode }) {
       perform: () => push('/blog')
     },
     {
-      id: 'til',
-      name: 'Today I Learned',
-      shortcut: ['b', 'i'],
-      section: 'Blog',
-      keywords: 'writing learning progress skills',
-      icon: <Notebook size="1em" weight="duotone" />,
-      perform: () => push('/blog/til')
-    },
-    {
       id: 'categories',
       name: 'Categories',
       shortcut: ['b', 'c'],
@@ -220,30 +203,6 @@ export function CustomKBarProvider({ children }: { children: ReactNode }) {
     ...postsAsAction,
     ...tilsAsAction
   ]
-
-  const personalLinksActions: Action[] = [
-    {
-      id: 'out-dotfiles',
-      name: 'My Manjaro Dotfiles',
-      section: 'Personal Links',
-      keywords: 'linux config setup',
-      icon: <Files size="1em" weight="duotone" />,
-      perform: () =>
-        window.open('https://github.com/mateusfg7/dotfiles', '_blank')
-    },
-    {
-      id: 'out-bookshelf',
-      name: 'My Bookshelf',
-      section: 'Personal Links',
-      keywords: 'books library',
-      icon: <Books size="1em" weight="duotone" />,
-      perform: () =>
-        window.open(
-          'https://www.skoob.com.br/estante/livros/todos/8289961',
-          '_blank'
-        )
-    }
-  ]
   const websiteInformationActions: Action[] = [
     {
       id: 'out-repo',
@@ -252,31 +211,7 @@ export function CustomKBarProvider({ children }: { children: ReactNode }) {
       keywords: 'repo source github código fonte',
       icon: <GithubLogo size="1em" weight="duotone" />,
       perform: () =>
-        window.open('https://github.com/mateusfg7/mateusf.com', '_blank')
-    },
-    {
-      id: 'out-license',
-      name: 'License',
-      section: 'Website',
-      keywords: 'mit gpl',
-      icon: <File size="1em" weight="duotone" />,
-      perform: () =>
-        window.open(
-          'https://github.com/mateusfg7/mateusf.com/blob/main/LICENSE',
-          '_blank'
-        )
-    },
-    {
-      id: 'out-analytics',
-      name: 'Analytics',
-      section: 'Website',
-      keywords: 'stats graph traffic',
-      icon: <ChartLine size="1em" weight="duotone" />,
-      perform: () =>
-        window.open(
-          "https://analytics.mateusf.com/share/YdWCDBOWOyKv5rRe/Mateus%20Felipe's%20Hideout",
-          '_blank'
-        )
+        window.open('https://github.com/furkandenizhan/furkandenizhancomtr', '_blank')
     },
     {
       id: 'sitemap',
@@ -327,7 +262,6 @@ export function CustomKBarProvider({ children }: { children: ReactNode }) {
     ...navigationActions,
     ...blogActions,
     ...projectsActions,
-    ...personalLinksActions,
     ...websiteInformationActions,
     ...themeActions
   ]
