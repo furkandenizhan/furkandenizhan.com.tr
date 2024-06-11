@@ -8,7 +8,7 @@ type User = {
 
 export async function getGithubUserData() {
   const githubUserRequest = await fetch(
-    'https://api.github.com/users/mateusfg7'
+    'https://api.github.com/users/furkandenizhan'
   )
 
   if (!githubUserRequest.ok) {
@@ -27,7 +27,7 @@ export async function getGithubUserData() {
 
 export async function getGithubCommits() {
   const githubApiRequest = await fetch(
-    'https://api.github.com/search/commits?q=author:mateusfg7'
+    'https://api.github.com/search/commits?q=author:furkandenizhan'
   )
 
   if (!githubApiRequest.ok) {
@@ -61,7 +61,7 @@ export async function getGithubFollowers() {
 
   for (let index = 1; index <= numberOfPages; index++) {
     const githubFollowersRequest = await fetch(
-      `https://api.github.com/users/mateusfg7/followers?per_page=100&page=${index}`
+      `https://api.github.com/users/furkandenizhan/followers?per_page=100&page=${index}`
     )
 
     if (!githubFollowersRequest.ok) {
@@ -96,7 +96,7 @@ export async function getGithubRepositories() {
 
   for (let index = 1; index <= numberOfPages; index++) {
     const githubRepositoriesRequest = await fetch(
-      `https://api.github.com/users/mateusfg7/repos?per_page=100&page=${index}`
+      `https://api.github.com/users/furkandenizhan/repos?per_page=100&page=${index}`
     )
 
     if (!githubRepositoriesRequest.ok) {
@@ -196,7 +196,7 @@ export async function getGithubContribution() {
       }
     `,
     variables: {
-      LOGIN: 'mateusfg7',
+      LOGIN: 'furkandenizhan',
       FROM: from.toISOString(),
       TO: to.toISOString()
     }

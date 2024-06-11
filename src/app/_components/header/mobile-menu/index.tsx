@@ -113,16 +113,10 @@ export function MobileMenu() {
               <Link title="Sitemap" icon={TreeStructure} href="/sitemap" />
               <Search />
               <OutLink
-                title="License"
-                icon={File}
-                rel="license"
-                href="https://github.com/mateusfg7/mateusf.com/blob/main/LICENSE/?ref=https://mateusf.com"
-              />
-              <OutLink
                 title="Github"
                 icon={GithubLogo}
                 rel="external"
-                href="https://github.com/mateusfg7/mateusf.com/?ref=https://mateusf.com"
+                href="https://github.com/furkandenizhan/furkandenizhan.com.tr/"
               />
               <OutLink
                 title="RSS"

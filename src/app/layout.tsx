@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   applicationName: config.metadata.title,
   authors: [
-    { name: 'Mateus Felipe Gonçalves', url: 'https://github.com/mateusfg7' }
+    { name: 'Furkan Denizhan', url: 'https://github.com/furkandenizhan' }
   ],
   category: 'Personal Website',
   keywords: [
@@ -42,10 +42,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: '/',
     emails: [
-      'contact@mateusf.com',
-      'contato@mateusf.com',
-      'mateusfelipefg77@gmail.com',
-      'mateusfg7@protonmail.com'
+      'contact@furkandenizhan.com.tr'
     ]
   },
   twitter: {

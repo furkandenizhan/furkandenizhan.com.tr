@@ -1,7 +1,7 @@
-title: 'MateusF.com'
-description: 'My personal homepage & portfolio... This website!'
-image: 'https://mateusf.com/preview.png'
-core_techs: ['typescript', 'reactjs', 'nextjs', 'tailwindcss', 'mdx']
-tags: ['typescript', 'reactjs', 'nextjs', 'tailwindcss', 'radix-ui', 'velite', 'kbar', 'phosphor-icons', 'mdx']
-repository: 'https://github.com/mateusfg7/mateusf.com'
-website: 'https://mateusf.com/'
+title: 'CloudPanel WiseCP'
+description: 'This project hosts a WiseCP module for CloudPanel. The WiseCP module automates account/website creation - management operations.'
+image: 'https://www.wisecp.com/images/banners/en/336x280.jpg'
+core_techs: []
+tags: ['Open Source', 'API', 'PHP', 'Module']
+repository: 'https://github.com/furkandenizhan/cloudpanel-wisecp-module'
+website: 'https://cloudpanel.io/'

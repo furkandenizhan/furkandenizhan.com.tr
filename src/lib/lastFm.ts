@@ -53,7 +53,7 @@ type RecentTracksBody = {
 
 export async function getLastFmRecentTracks() {
   const lastFmApiRequest = await fetch(
-    `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=mateusfg7&api_key=${process.env.LASTFM_API_KEY}&format=json`
+    `http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=egtn&api_key=${process.env.LASTFM_API_KEY}&format=json`
   )
 
   if (!lastFmApiRequest.ok) {
@@ -90,7 +90,7 @@ type TopArtistsBody = {
 
 export async function getLastFmTopArtists() {
   const lastFmApiRequest = await fetch(
-    `http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=mateusfg7&api_key=${process.env.LASTFM_API_KEY}&format=json&period=6month`
+    `http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=egtn&api_key=${process.env.LASTFM_API_KEY}&format=json&period=6month`
   )
 
   if (!lastFmApiRequest.ok) {
@@ -136,7 +136,7 @@ type TopTracksBody = {
 
 export async function getLastFmTopTracks(period: Period = '6month') {
   const lastFmApiRequest = await fetch(
-    `http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=mateusfg7&api_key=${process.env.LASTFM_API_KEY}&format=json&period=${period}`
+    `http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=egtn&api_key=${process.env.LASTFM_API_KEY}&format=json&period=${period}`
   )
 
   if (!lastFmApiRequest.ok) {
@@ -163,7 +163,7 @@ type User = {
 
 export async function getLastFmUserInfo() {
   const lastFmApiRequest = await fetch(
-    `http://ws.audioscrobbler.com/2.0/?method=user.getinfo&user=mateusfg7&api_key=${process.env.LASTFM_API_KEY}&format=json`
+    `http://ws.audioscrobbler.com/2.0/?method=user.getinfo&user=egtn&api_key=${process.env.LASTFM_API_KEY}&format=json`
   )
 
   if (!lastFmApiRequest.ok) {

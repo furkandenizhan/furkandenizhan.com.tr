@@ -1,9 +1,9 @@
-title: 'Noisekun'
-description: 'Website para ouvir combinações de sons para relaxar e se tornar mais produtivo nas suas tarefas.'
-image: 'https://raw.githubusercontent.com/mateusfg7/Noisekun/main/.github/assets/thumbnail.png'
-core_techs: ['typescript', 'reactjs', 'nextjs', 'tailwindcss']
-tags: ['typescript', 'reactjs', 'nextjs', 'tailwindcss', 'zustand', 'pwa']
-repository: 'https://github.com/mateusfg7/Noisekun'
-website: 'https://noisekun.mateusf.com'
+title: 'Suku Directory'
+description: 'This is one of my favourite projects. We are liberating web search with this open source project based on SearXNG. No tracking, no ad IDs. Even no page titles if you want. Just free search.'
+image: 'https://ph-files.imgix.net/6fa244df-eb76-4a19-834e-573df3ddd221.png'
+core_techs: []
+tags: ['Suku Tech', 'Freedom', 'Open Source', 'No Tracking']
+repository: 'https://github.com/sukutech/sukudirectory'
+website: 'https://sukudir.com'
 priority: 1
 featured: true

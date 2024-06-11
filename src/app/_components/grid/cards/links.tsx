@@ -24,24 +24,6 @@ export const LinksCard = () => {
         <XLogo size="1em" className="text-2xl" />
         <p className="text-[12px] text-white/55 ">(Often serious)</p>
       </a>
-      <a
-        href="https://www.reddit.com/user/mateusfg7/"
-        target="_blank"
-        className="flex h-[4.125rem] w-full transform-gpu flex-col items-center justify-center rounded-lg bg-brand-reddit text-white duration-500 hover:scale-95"
-      >
-        <RedditLogo size="1em" className="text-2xl" />
-        <p className="text-[12px] opacity-50">
-          &quot;What is this error?&quot;
-        </p>
-      </a>
-      <a
-        href="https://codepen.io/mateusfg7"
-        target="_blank"
-        className="flex h-[4.125rem] w-full transform-gpu flex-col items-center justify-center rounded-lg bg-brand-codepen text-white duration-500 hover:scale-95 dark:text-black"
-      >
-        <CodepenLogo size="1em" className="text-2xl" />
-        <p className="text-[12px]">(Drafts)</p>
-      </a>
     </div>
   )
 }

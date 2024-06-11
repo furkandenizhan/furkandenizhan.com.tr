@@ -1,12 +1,11 @@
-title: 'Formatch'
-description: 'Aplicativo que conecta você a um profissional da área de construção civil, e ainda te mantém informado sobre novidades do setor.'
-image: 'https://raw.githubusercontent.com/mateusfg7/formatch-app/main/.github/thumbnail.png'
-core_techs: ['typescript', 'react-native', 'expo']
+title: 'CloudPanel Fossbilling'
+description: 'This project hosts a FossBilling module for CloudPanel. This FossBilling module automates account/website creation - management operations.'
+image: 'https://raw.githubusercontent.com/FOSSBilling/branding/main/logo-png/fossb_logo-on-black.png'
+core_techs: []
 tags: [
-      'typescript',
-      'react-native',
-      'expo',
-      'native-base',
-      'phosphor-icons'
+      'Open Source',
+      'API',
+      'PHP',
+      'Module'
     ]
-repository: 'https://github.com/mateusfg7/formatch'
+repository: 'https://github.com/furkandenizhan/fastpanel-fossbilling-module'
