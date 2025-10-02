@@ -50,5 +50,6 @@ export async function getAlbumCover(track: string) {
     return res.json()
   })
 
-  return res.tracks.items[0].album.images.filter(img => img.height === 640)[0]
+  return res?.tracks?.items?.[0]?.album?.images?.find(img => img.height === 640) || null
+
 }

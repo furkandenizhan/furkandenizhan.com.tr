@@ -33,21 +33,25 @@ export async function MostListenedMusic() {
           </div>
         </div>
       </div>
-      <Image
-        src={cover.url}
-        alt={title!}
-        className="absolute -bottom-10 -left-14 -z-10 rounded-full blur-2xl"
-        width={200}
-        height={200}
-      />
-      <Image
-        src={cover.url}
-        alt={title!}
-        className="absolute -bottom-12 -left-16 animate-spin overflow-hidden rounded-full animate-duration-[120s]"
-        placeholder="empty"
-        width={200}
-        height={200}
-      />
-    </a>
+{cover && (
+  <>
+    <Image
+      src={cover.url}
+      alt={title!}
+      className="absolute -bottom-10 -left-14 -z-10 rounded-full blur-2xl"
+      width={200}
+      height={200}
+    />
+    <Image
+      src={cover.url}
+      alt={title!}
+      className="absolute -bottom-12 -left-16 animate-spin overflow-hidden rounded-full animate-duration-[120s]"
+      placeholder="empty"
+      width={200}
+      height={200}
+    />
+  </>
+)}
+</a>
   )
 }

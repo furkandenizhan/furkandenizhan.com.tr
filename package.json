@@ -12,7 +12,7 @@
     "build:next": "next build",
     "dev": "run-p dev:*",
     "build": "run-s build:*",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
     "bump-tag": "tsx tools/bump-tag-version.ts",
     "new": "tsx tools/new-content.mts",

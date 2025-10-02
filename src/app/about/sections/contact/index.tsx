@@ -18,7 +18,7 @@ type Contact = {
 }
 const contacts: Contact[] = [
   {
-    user: 'contact@furkandenizhan.com.tr',
+    user: 'denizhan@furkandenizhan.com.tr',
     title: () => (
       <div className="contact-line contact-line-title text-brand-email">
         <span className="rounded bg-brand-email/10 p-1 text-2xl">
@@ -31,11 +31,11 @@ const contacts: Contact[] = [
       <div className="contact-line">
         <a
           className="inline-flex items-end gap-px hover:underline"
-          href="mailto:contact@furkandenizhan.com.tr"
+          href="mailto:denizhan@furkandenizhan.com.tr"
           target="_blank"
           rel="external"
         >
-          <span className="leading-none">Send e-mail</span>
+          <span className="leading-none">&nbsp; Send e-mail</span>
           <ArrowUpRight size="1em" className="text-sm" />
         </a>
       </div>
@@ -90,7 +90,7 @@ const contacts: Contact[] = [
     )
   },
   {
-    user: 'furkandenizhan_',
+    user: 'furkandenizhanhq',
     title: () => (
       <div className="contact-line contact-line-title text-brand-twitter">
         <span className="rounded bg-brand-twitter/10 p-1">
@@ -103,7 +103,7 @@ const contacts: Contact[] = [
       <div className="contact-line">
         <a
           className="inline-flex items-end gap-px hover:underline"
-          href="https://twitter.com/furkandenizhan"
+          href="https://twitter.com/furkandenizhanhq"
           target="_blank"
           rel="external"
         >

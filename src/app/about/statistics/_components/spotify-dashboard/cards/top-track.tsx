@@ -8,9 +8,9 @@ import { getAlbumCover } from '~/lib/get-album-cover'
 export async function TopTrack() {
   const track = await getLastFmTopTracks('1month').then(tracks => tracks[0])
 
-  const imageUrl = await getAlbumCover(
-    `${track.name} - ${track.artist.name}`
-  ).then(data => data.url)
+  const data = await getAlbumCover(`${track.name} - ${track.artist.name}`)
+const imageUrl = data?.url ?? null
+
 
   return (
     <div className="flex h-full w-full items-center justify-between gap-2 rounded-3xl bg-neutral-200 p-4 leading-none dark:bg-neutral-950 md:p-7">

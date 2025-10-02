@@ -49,8 +49,6 @@ export function Grid() {
 
         <div className="col-span-3 space-y-3 md:ml-3">
           <div className="flex gap-3">
-            <DiscordStatus />
-
             <LatestPost />
           </div>
           <BooksCard />

@@ -11,13 +11,13 @@ import { GithubLogo } from '~/app/about/sections/contact/icons'
 import { Date } from '~/components/date'
 
 type Repo = {
-  name: string // 'mateusf.com'
-  full_name: string //'mateusfg7/mateusf.com'
-  html_url: string // 'https://github.com/mateusfg7/mateusf.com'
+  name: string // 'furkandenizhan.com.tr'
+  full_name: string //'furkandenizhan/furkandenizhan.com.tr'
+  html_url: string // 'https://github.com/furkandenizhan/furkandenizhan.com.tr'
   description: string //'🏡 My corner of internet, a.k.a Personal Homepage & Portfolio.'
   created_at: string //'2020-12-07T18:21:19Z'
   updated_at: string // '2024-05-24T17:26:40Z'
-  homepage: string // 'https://mateusf.com'
+  homepage: string // 'https://furkandenizhan.com.tr'
   size: number // 58928
   stargazers_count: number // 30
   language: string // 'TypeScript'
